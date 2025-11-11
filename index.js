@@ -1,4 +1,9 @@
 
-const generateRandomNumber = require('./utils/');
+import { getPosts } from "./postController.js"
 
-console.log(`Random number: ${generateRandomNumber()}`);
+
+// const {generateRandomNumber, celciusToFahrenheit} = require('./utils');
+
+// console.log(`Random number: ${generateRandomNumber()}`);
+
+// console.log(`Celcius to Fahrenheit: ${celciusToFahrenheit(0)}`);
