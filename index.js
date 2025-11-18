@@ -1,6 +1,12 @@
 
-import { getPosts } from "./postController.js"
+// import { getPosts } from "./postController.js"
 
+// alt construction
+import getPosts, { getPostsLength } from "./postController.js"
+
+console.log(getPosts());
+
+console.log(`Posts Length: ${getPostsLength()}`);
 
 // const {generateRandomNumber, celciusToFahrenheit} = require('./utils');
 

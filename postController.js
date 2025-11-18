@@ -3,5 +3,17 @@ const posts = [
     {id: 2, title: 'Post Two'},
 ]
 
-export const getPosts = () => posts;
 
+// export const getPosts = () => posts;
+
+// alt construction
+// const getPosts = () => posts;
+
+// export { getPosts };
+
+// alt alt construction
+const getPosts = () => posts;
+
+export const getPostsLength = () => posts.length;
+
+export default getPosts;
